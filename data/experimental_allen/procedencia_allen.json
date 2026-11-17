@@ -1,0 +1,145 @@
+{
+  "registros": [
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 324257146,
+      "sweep_number": 33,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.030655,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_324257146/ephys.nwb",
+      "nwb_sha256": "e93eafced5cb85fc9f48aad5cf2a432f8a57bec8cbb2eecc95739ba4c8709fba",
+      "csv": "allen_324257146_sweep_33.csv",
+      "num_muestras": 2401,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    },
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 324257146,
+      "sweep_number": 35,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.025535,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_324257146/ephys.nwb",
+      "nwb_sha256": "e93eafced5cb85fc9f48aad5cf2a432f8a57bec8cbb2eecc95739ba4c8709fba",
+      "csv": "allen_324257146_sweep_35.csv",
+      "num_muestras": 2401,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    },
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 320654829,
+      "sweep_number": 51,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.068335,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_320654829/ephys.nwb",
+      "nwb_sha256": "fd164a3091fbbb3be358238088afa2e2f08981d49edffa87d55309931a9853ab",
+      "csv": "allen_320654829_sweep_51.csv",
+      "num_muestras": 2400,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    },
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 320654829,
+      "sweep_number": 52,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.051865,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_320654829/ephys.nwb",
+      "nwb_sha256": "fd164a3091fbbb3be358238088afa2e2f08981d49edffa87d55309931a9853ab",
+      "csv": "allen_320654829_sweep_52.csv",
+      "num_muestras": 2400,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    },
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 320654829,
+      "sweep_number": 53,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.0423200000000001,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_320654829/ephys.nwb",
+      "nwb_sha256": "fd164a3091fbbb3be358238088afa2e2f08981d49edffa87d55309931a9853ab",
+      "csv": "allen_320654829_sweep_53.csv",
+      "num_muestras": 2401,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    },
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 320654829,
+      "sweep_number": 54,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.038545,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_320654829/ephys.nwb",
+      "nwb_sha256": "fd164a3091fbbb3be358238088afa2e2f08981d49edffa87d55309931a9853ab",
+      "csv": "allen_320654829_sweep_54.csv",
+      "num_muestras": 2400,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    },
+    {
+      "tipo": "EXPERIMENTAL_REAL",
+      "specimen_id": 320654829,
+      "sweep_number": 56,
+      "source": "Allen Cell Types Database",
+      "source_docs": "https://alleninstitute.github.io/AllenSDK/cell_types.html",
+      "sampling_rate_Hz": 200000.0,
+      "spike_time_s": 1.033485,
+      "species": "Mus musculus",
+      "stimulus_name": "Long Square",
+      "nwb_path": "data/experimental_allen/specimen_320654829/ephys.nwb",
+      "nwb_sha256": "fd164a3091fbbb3be358238088afa2e2f08981d49edffa87d55309931a9853ab",
+      "csv": "allen_320654829_sweep_56.csv",
+      "num_muestras": 2400,
+      "conversion": "V -> mV y A -> pA",
+      "cortado_ms": [
+        -4.0,
+        8.0
+      ]
+    }
+  ],
+  "fallos": []
+}

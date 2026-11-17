@@ -1,0 +1,11 @@
+parametro,valor,unidad,origen,comentario
+C_m,1.0,uF/cm2,10.1113/jphysiol.1952.sp004764,capacitancia de membrana
+G_Na,120.0,mS/cm2,10.1113/jphysiol.1952.sp004764,conductancia maxima de sodio
+G_K,36.0,mS/cm2,10.1113/jphysiol.1952.sp004764,conductancia maxima de potasio
+G_L,0.3,mS/cm2,10.1113/jphysiol.1952.sp004764,conductancia de fuga
+E_Na,50.0,mV,modelo clasico con potencial absoluto desplazado en reposo -65mV,potencial de inversion sodio
+E_K,-77.0,mV,modelo clasico con potencial absoluto desplazado en reposo -65mV,potencial de inversion potasio
+E_L,-54.387,mV,modelo clasico con potencial absoluto desplazado en reposo -65mV,potencial de inversion fuga
+V_reposo,-65.0,mV,convencion de voltaje trasladada,estado inicial aproximado
+I_ext_base,10.0,uA/cm2,escenario del informe UTP 2026,valor de estimulacion elegido para el experimento
+T_original,6.3,grados_Celsius,10.1113/jphysiol.1952.sp004764,temperatura original del experimento HH

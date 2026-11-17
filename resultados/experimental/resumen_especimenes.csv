@@ -1,0 +1,3 @@
+specimen,n_ventanas,RMSE_FFT_N25_media_mV,RMSE_puente_N25_media_mV,reduccion_relativa_medias_pct,Nmin_FFT_media,Nmin_puente_media,n_cumple_N25_FFT,n_cumple_N25_puente
+320654829,5,0.3436341794561514,0.25769339537370034,25.009381842767855,19.0,17.8,5,5
+324257146,2,1.9316131673021877,1.8998113855180632,1.646384603421444,60.0,61.0,0,0

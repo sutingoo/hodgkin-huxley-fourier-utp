@@ -1,0 +1,10 @@
+{
+  "tipo": "validacion interna: implementaciones independientes en convención de potencial",
+  "physiome_cellml_ejecutado": false,
+  "duracion_ms": 100.0,
+  "I_ext_uA_cm2": 10.0,
+  "max_abs_diferencia_mV": 1.5187106683356433e-07,
+  "rmse_diferencia_mV": 7.365514934877458e-09,
+  "max_diferencia_compuertas": 1.2540555260898145e-09,
+  "advertencia": "No es una ejecución de Physiome/OpenCOR; hay que exportar el modelo oficial y armonizar el estímulo."
+}

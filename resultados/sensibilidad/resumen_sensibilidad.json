@@ -1,0 +1,69 @@
+{
+  "tipo": "SIMULACION_SINTETICA",
+  "seed": 20261116,
+  "repeticiones_por_sigma": 40,
+  "niveles_ruido_mV": [
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "advertencia": "No se midió ruido fisiológico ni consumo; interpolación de Fourier asume señal periódica y no sustituye diseño ADC antialias.",
+  "muestreo": [
+    {
+      "f_s_solicitado_Hz": 2000,
+      "n_muestras_ciclo": 29,
+      "f_s_efectivo_Hz": 1981.3874437515744,
+      "frecuencia_nyquist_Hz": 990.6937218757872,
+      "rmse_recuperacion_sin_antialias_mV": 2.0865701710699462,
+      "error_max_mV": 8.856474118388487,
+      "error_pico_mV": 3.407581520508735
+    },
+    {
+      "f_s_solicitado_Hz": 3500,
+      "n_muestras_ciclo": 51,
+      "f_s_efectivo_Hz": 3484.5089528044928,
+      "frecuencia_nyquist_Hz": 1742.2544764022464,
+      "rmse_recuperacion_sin_antialias_mV": 0.6477000619425486,
+      "error_max_mV": 3.6479629638617297,
+      "error_pico_mV": 1.5071873072275181
+    },
+    {
+      "f_s_solicitado_Hz": 5000,
+      "n_muestras_ciclo": 73,
+      "f_s_efectivo_Hz": 4987.630461857411,
+      "frecuencia_nyquist_Hz": 2493.8152309287057,
+      "rmse_recuperacion_sin_antialias_mV": 0.21653572547557595,
+      "error_max_mV": 1.7490744949031551,
+      "error_pico_mV": 0.009928904931587823
+    },
+    {
+      "f_s_solicitado_Hz": 10000,
+      "n_muestras_ciclo": 146,
+      "f_s_efectivo_Hz": 9975.260923714823,
+      "frecuencia_nyquist_Hz": 4987.630461857411,
+      "rmse_recuperacion_sin_antialias_mV": 0.006374336401870208,
+      "error_max_mV": 0.056395717156767944,
+      "error_pico_mV": 0.0077598126333171535
+    },
+    {
+      "f_s_solicitado_Hz": 20000,
+      "n_muestras_ciclo": 293,
+      "f_s_efectivo_Hz": 20018.845552386596,
+      "frecuencia_nyquist_Hz": 10009.422776193298,
+      "rmse_recuperacion_sin_antialias_mV": 0.00013391532040363718,
+      "error_max_mV": 0.001295881319855141,
+      "error_pico_mV": 0.0006030071889639999
+    },
+    {
+      "f_s_solicitado_Hz": 50000,
+      "n_muestras_ciclo": 732,
+      "f_s_efectivo_Hz": 50012.95202848801,
+      "frecuencia_nyquist_Hz": 25006.476014244006,
+      "rmse_recuperacion_sin_antialias_mV": 0.0001829885512011945,
+      "error_max_mV": 0.002384269336737077,
+      "error_pico_mV": 0.0006511080466928831
+    }
+  ],
+  "rmse_N25_ruido_1mV_promedio": 0.46377517467918905
+}

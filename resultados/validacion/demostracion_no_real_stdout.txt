@@ -1,0 +1,9 @@
+{
+  "n_ventanas_analizadas": 2,
+  "n_ventanas_declaradas_reales": 0,
+  "n_ventanas_sinteticas": 2,
+  "n_ventanas_sin_verificar": 0,
+  "fallos": [],
+  "metodologia": "12ms ventana nativa, FFT cruda y puente lineal + FFT + restauración. Mismo N para ambas.",
+  "limitaciones": "Los coeficientes no equivalen a periodo de disparo. Criterios arbitrados para estudio; requiere resultados por células independientes."
+}

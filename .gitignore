@@ -1,0 +1,16 @@
+# Entornos locales y caches
+.venv/
+.venv-allen/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+# Archivos experimentales NWB grandes: descargar desde Allen Institute
+*.nwb
+# CSV experimentales de barridos (descargables, requieren verificar procedencia)
+data/experimental_allen/allen_*_sweep_*.csv
+# Logs personales y temporales
+*.log

@@ -1,0 +1,63 @@
+{
+  "estado": "comparación externa ejecutada",
+  "nota": "Se ha comparado HHlab con el CSV exportado de OpenCOR, no con un segundo código Python",
+  "modelo": "Modelos equivalentes para el experimento del tutorial de OpenCOR, no idéntico al estímulo constante del informe UTP.",
+  "modelo_cellml": {
+    "V_rel_inicial_mV": 0.0,
+    "E_R": 0.0,
+    "Cm": 1.0,
+    "m": 0.05,
+    "h": 0.6,
+    "n": 0.325,
+    "g_Na": 120.0,
+    "g_K": 36.0,
+    "g_L": 0.3,
+    "stimulus_cellml_uA_cm2": -20,
+    "stimulus_start_ms": 10.0,
+    "stimulus_end_ms": 10.5,
+    "estimulo_Python_uA_cm2": 20,
+    "cellml_model_name": "hodgkin_huxley_squid_axon_model_1952_original"
+  },
+  "convencion": "V_HHlab = -65 - V_CellML (mV); I_HHlab = -i_Stim_CellML",
+  "muestras_por_run": 4501,
+  "tiempo_ms_inicio": 0.0,
+  "tiempo_ms_final": 45.0,
+  "resolucion_temporal_ms": 0.009999999999999787,
+  "n_ejecuciones_csv": 13,
+  "run_graficado": 1,
+  "metricas_run_elegido": {
+    "run": 1,
+    "muestras": 4501,
+    "rmse_mV": 0.00021932669635209027,
+    "max_abs_mV": 0.003017412759032112,
+    "bias_mV": -1.1169814594364811e-07,
+    "Vmax_opencor_convertido_mV": 39.499176926098,
+    "Vmax_HHlab_mV": 39.49910540614241,
+    "t_pico_opencor_ms": 12.07,
+    "t_pico_HHlab_ms": 12.07,
+    "Vmin_opencor_convertido_mV": -76.1769020721057,
+    "Vmin_HHlab_mV": -76.17690200110769,
+    "m_rmse": 1.902764268210999e-06,
+    "h_rmse": 5.16519187608472e-07,
+    "n_rmse": 5.431731216704826e-07
+  },
+  "resumen_13_ejecuciones": {
+    "rmse_max_mV": 0.0003215849806656621,
+    "rmse_mediana_mV": 0.00014730963857925903,
+    "max_abs_global_mV": 0.004364841943210962
+  },
+  "archivos": {
+    "cellml": "data/physiome/hodgkin_huxley_squid_axon_model_1952_original.cellml",
+    "cellml_sha256": "db24266daedfb55c98707810d2b5dee62717175399883785491dfeb60e4e3f2e",
+    "csv_opencor": "data/physiome/hodgkin_huxley_squid_axon_model_1952_original_data.csv",
+    "csv_opencor_sha256": "0e92dce37219144d497fc427d6c129b0810e950509266a47fdf68c901c245049",
+    "codigo_hhlab": "src/hh_fourier.py",
+    "codigo_hhlab_sha256": "b7e42497637c2ae3ad987a5eb85649343a37286f81f47f43c4608953762e20f5"
+  },
+  "advertencias": [
+    "Run #2–13 pueden iniciar con el estado final previo: no son réplicas experimentales independientes.",
+    "La comparación utiliza el protocolo de pulso del CellML, no la corriente constante de 10 µA/cm² del informe.",
+    "Este modelo tutorial no está automáticamente identificado como el experimento concreto e/672 de Physiome.",
+    "Concordancia numérica no equivale a validación fisiológica o clínica."
+  ]
+}

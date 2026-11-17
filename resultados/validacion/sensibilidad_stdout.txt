@@ -1,0 +1,1 @@
+Sensibilidad creada: HHlab/resultados/sensibilidad RMSE N25 ruido1= 0.46377517467918905

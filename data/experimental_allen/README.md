@@ -1,0 +1,1 @@
+Los archivos ephys.nwb y los CSV de voltaje de cada sweep NO están incluidos. Descárguelos con AllenSDK en su equipo. Este repositorio conserva el manifiesto y las métricas agregadas. El manifiesto usa rutas relativas para publicarlo; al ejecutar `src/allen_lote.py`, se genera el manifiesto nuevamente.

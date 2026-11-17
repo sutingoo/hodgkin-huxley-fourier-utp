@@ -1,0 +1,31 @@
+{
+  "estado": "reproducido por codigo, datos generados por simulacion; NO datos clinicos",
+  "modelo": "HH1952 parametros clasicos, parametros referidos a Vrest=-65mV",
+  "I_ext_uA_cm2": 10.0,
+  "duracion_simulacion_ms": 250.0,
+  "periodo_ms": 14.636210854233184,
+  "frecuencia_fundamental_Hz": 68.32369456543961,
+  "Vmax_mV": 30.430267356348033,
+  "Vmin_mV": -74.89624810230556,
+  "Vpp_mV": 105.3265154586536,
+  "pendiente_max_mV_ms": 219.45623726417637,
+  "muestras_por_ciclo": 4096,
+  "paso_por_ciclo_ms": 0.0035732936655842734,
+  "condicion_optimo": "menor N: RMSE <1mV, energia_AC>=99.9%, error_pico<1mV",
+  "N_min_criterio": 21,
+  "diferencia_max_solver_RK45_vs_DOP853_mV": 1.6797469215568128e-07,
+  "error_periodicidad_mV": 1.7093169617510284e-06,
+  "metricas_N25": {
+    "N": 25,
+    "f_max_Hz": 1708.0923641359902,
+    "RMSE_mV": 0.44997209436272617,
+    "NRMSE_pct_Vpp": 0.42721634946649756,
+    "error_pico_mV": 0.9758418971725256,
+    "error_max_mV": 2.788784695825239,
+    "error_max_pct_Vpp": 2.6477517875543777,
+    "sobreimpulso_pct_Vpp": 0.9264921496008256,
+    "energia_AC_retenida_pct": 99.96454291873755,
+    "error_cruce_umbral_ms": 0.013211338743286394
+  },
+  "advertencia": "No prueba exactitud clinica, ahorro energetico de hardware ni optimizacion universal."
+}

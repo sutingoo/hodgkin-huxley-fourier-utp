@@ -1,0 +1,2 @@
+# Instalar solamente en un entorno Python 3.10; separado del principal.
+allensdk==2.16.2

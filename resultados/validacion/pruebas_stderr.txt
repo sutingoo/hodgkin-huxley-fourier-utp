@@ -1,0 +1,15 @@
+test_disparo_y_fidelidad (test_hh_fourier.TestHodgkinHuxleyFourier.test_disparo_y_fidelidad) ... ok
+test_equilibrio_compuertas (test_hh_fourier.TestHodgkinHuxleyFourier.test_equilibrio_compuertas) ... ok
+test_fourier_senoides_exacto (test_hh_fourier.TestHodgkinHuxleyFourier.test_fourier_senoides_exacto) ... ok
+test_parseval_y_error_residual (test_hh_fourier.TestHodgkinHuxleyFourier.test_parseval_y_error_residual) ... ok
+test_singularidades_removibles (test_hh_fourier.TestHodgkinHuxleyFourier.test_singularidades_removibles) ... ok
+test_clip_par_corrige_longitud (test_validaciones.TestIntegracionCientifica.test_clip_par_corrige_longitud) ... ok
+test_derivadas_dos_convenciones (test_validaciones.TestIntegracionCientifica.test_derivadas_dos_convenciones) ... ok
+test_equivalencia_numerica (test_validaciones.TestIntegracionCientifica.test_equivalencia_numerica) ... ok
+test_puente_recupera_tendencia_lineal (test_validaciones.TestIntegracionCientifica.test_puente_recupera_tendencia_lineal) ... ok
+test_registro_demostracion_no_atribuido_a_allen (test_validaciones.TestIntegracionCientifica.test_registro_demostracion_no_atribuido_a_allen) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.951s
+
+OK

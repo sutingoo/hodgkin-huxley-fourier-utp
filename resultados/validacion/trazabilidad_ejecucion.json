@@ -1,0 +1,53 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "pasos": [
+    {
+      "etapa": "hh",
+      "comando": "/opt/pyvenv/bin/python src/hh_fourier.py",
+      "codigo_salida": 0,
+      "estado": "OK"
+    },
+    {
+      "etapa": "corriente",
+      "comando": "/opt/pyvenv/bin/python src/estudio_parametrico.py",
+      "codigo_salida": 0,
+      "estado": "OK"
+    },
+    {
+      "etapa": "gibbs",
+      "comando": "/opt/pyvenv/bin/python src/comparacion_gibbs.py",
+      "codigo_salida": 0,
+      "estado": "OK"
+    },
+    {
+      "etapa": "equivalencia",
+      "comando": "/opt/pyvenv/bin/python src/validacion_physiome.py",
+      "codigo_salida": 0,
+      "estado": "OK"
+    },
+    {
+      "etapa": "sensibilidad",
+      "comando": "/opt/pyvenv/bin/python src/experimentos_adicionales.py",
+      "codigo_salida": 0,
+      "estado": "OK"
+    },
+    {
+      "etapa": "demostracion_no_real",
+      "comando": "/opt/pyvenv/bin/python src/analisis_experimental.py --demo-sintetica",
+      "codigo_salida": 0,
+      "estado": "OK"
+    },
+    {
+      "etapa": "pruebas",
+      "comando": "/opt/pyvenv/bin/python -m unittest discover -s tests -v",
+      "codigo_salida": 0,
+      "estado": "OK"
+    }
+  ],
+  "allen_descargado_en_este_pipeline": false,
+  "physiome_CellML_ejecutado_en_este_pipeline": false
+}
